@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logo IIT.png" alt=" logo iit" width="30%">
+        <h1>Université Nord américaine Privée: Institut International de Technologie</h1>
+        <img src="../images/campus.jfif" alt="images du campus " width="30%">
+        <nav><a href="../index.html">Actualité</a> <a href="Inscription.html">Inscription</a> <a  href="Galerie.html">Galerie</a></nav>
+
+    </header>
+    <main>
+
+        <fieldset>
+            <legend>Inscription étudiant</legend>
+            
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom"><br></br>
+            
+            <label for="Prenom">Prénom:</label>
+            <input type="text" id="prenom"><br></br>
+            
+            <label for="date">datetime-local</label>
+            <input type="datetime-local" id="date"><br></br>
+            
+            <div>Sexe:
+            <label for="Masculin">Masculin</label>
+            <input type="radio" valeur="Masculin" id="Masculin" name="sex">
+            <label for="Féminin">Féminin</label>
+            <input type="radio" valeur="Féminin" id="Féminin" name="sex"></div>
+            <br>
+
+            <label for="Pays">Pays:</label>
+            <input list="countries" id="country" name="country" placeholder="Choisissez un pays..." id="Pays:">
+            <br></br>
+            
+            <div>Langues : 
+                <input type="checkbox" valeur="Arabe" id="Arabe">
+                <label for="Arabe">Arabe</label>
+                
+                
+                <input type="checkbox" valeur="Anglais" id="Anglais">
+                <label for="Anglais">Anglais</label>
+                
+                <input type="checkbox" valeur="Francais" id="Francais">
+                <label for="Francais">Francais</label>
+                
+            </div>
+            <br>
+            <label for="Image:">Image:</label>
+            <input type="file"><br></br>
+            
+            <input type="submit" value="envoyer">
+
+        </fieldset>
+        <datalist id="countries">
+            <option value="France"></option>
+            <option value="Canada"></option>
+            <option value="Allemagne"></option>
+            <option value="Australie"></option>
+            <option value="États-Unis"></option>
+            <option value="Inde"></option>
+            <option value="Royaume-Uni"></option>
+            <!-- Ajoutez plus de pays ici -->
+        </datalist>
+
+
+
+
+
+    </main>
+    
+
+    <footer>
+        <br>Route Mharza Km 1.5,Sfax<br/>
+        Tél: +216 74 465 020<br/>
+        MAIL : contact.iit@iit.tn</br>
+    </footer>
+    
+</body>
+</html>
