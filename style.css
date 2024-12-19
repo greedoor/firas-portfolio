@@ -27,9 +27,7 @@ header {
 
 
 
-.logo a:hover::after {
-    width: 100%;
-}
+
 
 .nav-list {
     display: flex;
